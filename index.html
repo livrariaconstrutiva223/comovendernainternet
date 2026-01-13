@@ -1,271 +1,271 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como começar a ganhar dinheiro na internet em 7 dias</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como começar a ganhar dinheiro na internet em 7 dias</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
+body{
+font-family:'Segoe UI',Tahoma,Verdana,sans-serif;
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:#333;
+}
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
+.container{max-width:1200px;margin:auto;padding:20px}
 
-        header {
-            text-align: center;
-            padding: 60px 20px 40px;
-            color: white;
-        }
+header{
+text-align:center;
+padding:60px 20px 40px;
+color:#fff;
+}
 
-        header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
+header h1{font-size:2.4em;text-shadow:2px 2px 4px rgba(0,0,0,.3)}
+header h3{margin:15px 0;font-weight:500}
+header p{opacity:.95}
 
-        header p {
-            font-size: 1.2em;
-            opacity: 0.95;
-        }
+.hero{
+background:#fff;
+border-radius:20px;
+box-shadow:0 20px 60px rgba(0,0,0,.3);
+margin-bottom:40px;
+overflow:hidden;
+}
 
-        .hero {
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            overflow: hidden;
-            margin-bottom: 40px;
-        }
+.hero-content{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+padding:60px;
+align-items:center;
+}
 
-        .hero-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            padding: 60px;
-            align-items: center;
-        }
+.hero-image{
+background:linear-gradient(135deg,#667eea,#764ba2);
+border-radius:15px;
+padding:30px;
+display:flex;
+justify-content:center;
+}
 
-        .hero-image {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 15px;
-            padding: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 400px;
-        }
+.book-mockup img{
+max-width:100%;
+width:220px;
+height:auto;
+border-radius:12px;
+box-shadow:0 15px 40px rgba(0,0,0,.4);
+}
 
-        .book-mockup img {
-            width: 220px;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
-            transform: perspective(1000px) rotateY(-5deg);
-        }
+.hero-text h2{font-size:2em;margin-bottom:15px}
+.hero-text p{margin-bottom:10px;color:#4a5568}
 
-        .hero-text h2 {
-            font-size: 2.2em;
-            margin-bottom: 20px;
-            color: #2d3748;
-        }
+.price{font-size:2.6em;color:#667eea;font-weight:bold}
+.old-price{text-decoration:line-through;color:#999;margin-right:10px}
 
-        .hero-text p {
-            font-size: 1.1em;
-            margin-bottom: 15px;
-            color: #4a5568;
-        }
+.cta-button{
+background:linear-gradient(135deg,#25D366,#128C7E);
+color:#fff;
+border:none;
+padding:18px 45px;
+font-size:1.2em;
+border-radius:50px;
+cursor:pointer;
+margin-top:20px;
+width:100%;
+max-width:320px;
+}
 
-        .price {
-            font-size: 3em;
-            font-weight: bold;
-            color: #667eea;
-            margin: 30px 0 20px;
-        }
+/* PROVA SOCIAL PROFISSIONAL */
+.social-proof{
+margin-top:25px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:12px;
+}
 
-        .old-price {
-            font-size: 1.5em;
-            color: #999;
-            text-decoration: line-through;
-            margin-right: 15px;
-        }
+.proof-card{
+background:#f9fafb;
+border:1px solid #e5e7eb;
+border-radius:12px;
+padding:15px;
+font-size:.95em;
+display:flex;
+align-items:center;
+gap:10px;
+}
 
-        .cta-button {
-            background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
-            color: white;
-            border: none;
-            padding: 20px 50px;
-            font-size: 1.3em;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-            margin-top: 20px;
-        }
+.proof-icon{
+font-size:1.4em;
+}
 
-        .cta-button:hover {
-            transform: translateY(-3px);
-        }
+.benefits{
+background:#fff;
+border-radius:20px;
+padding:50px;
+margin-bottom:40px;
+box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
 
-        .benefits {
-            background: white;
-            border-radius: 20px;
-            padding: 50px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            margin-bottom: 40px;
-        }
+.benefits-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+text-align:center;
+}
 
-        .benefits h3 {
-            font-size: 2em;
-            text-align: center;
-            margin-bottom: 40px;
-        }
+.benefit-icon{
+width:70px;height:70px;
+background:linear-gradient(135deg,#667eea,#764ba2);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+margin:auto auto 15px;
+font-size:2em;
+color:#fff;
+}
 
-        .benefits-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-        }
+.guarantee{
+background:linear-gradient(135deg,#48bb78,#38a169);
+color:#fff;
+border-radius:20px;
+padding:40px;
+text-align:center;
+}
 
-        .benefit-item {
-            text-align: center;
-        }
+footer{text-align:center;color:#fff;padding:30px}
 
-        .benefit-icon {
-            width: 70px;
-            height: 70px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 20px;
-            font-size: 2em;
-            color: white;
-        }
-
-        .guarantee {
-            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
-            color: white;
-            border-radius: 20px;
-            padding: 40px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            color: white;
-            opacity: 0.9;
-        }
-
-        @media (max-width: 768px) {
-            .hero-content {
-                grid-template-columns: 1fr;
-                padding: 30px;
-            }
-
-            header h1 {
-                font-size: 1.8em;
-            }
-        }
-    </style>
+@media(max-width:768px){
+.hero-content{grid-template-columns:1fr;padding:30px}
+header h1{font-size:1.8em}
+.hero-text h2{font-size:1.6em}
+.book-mockup img{width:180px}
+}
+</style>
 </head>
 
 <body>
 
 <header>
-    <div class="container">
-        <h1>💻 Como começar a ganhar dinheiro na internet?</h1>
-        <h3>Cansado de ouvir ilusões sobre ganhar dinheiro na internet?</h3>
-        <p>Chegou a solução pra você. Aprenda estratégias práticas que realmente funcionam.</p>
-    </div>
+<div class="container">
+<h1>💻 Como começar a ganhar dinheiro na internet?</h1>
+<h3>Cansado de ilusões sobre dinheiro online?</h3>
+<p>Aprenda estratégias práticas que realmente funcionam.</p>
+</div>
 </header>
 
 <div class="container">
 
-    <div class="hero">
-        <div class="hero-content">
+<div class="hero">
+<div class="hero-content">
 
-            <div class="hero-image">
-                <div class="book-mockup">
-                    <img src="capa.png" alt="Capa do livro">
-                </div>
-            </div>
+<div class="hero-image">
+<div class="book-mockup">
+<img src="capa.png" alt="Capa do Livro">
+</div>
+</div>
 
-            <div class="hero-text">
-                <h2>Transforme seu celular ou computador em fonte de renda</h2>
-                <p>✓ Métodos simples e acessíveis</p>
-                <p>✓ Ideal para iniciantes</p>
-                <p>✓ Estratégias reais e atualizadas</p>
-                <p>✓ Acesso imediato após a compra</p>
+<div class="hero-text">
+<h2>Transforme seu celular ou computador em fonte de renda</h2>
+<p>✓ Ideal para iniciantes</p>
+<p>✓ Métodos reais e testados</p>
+<p>✓ Plano prático de 7 dias</p>
 
-                <div>
-                    <span class="old-price"> 4.897 kz</span>
-                    <span class="price"> 1.999 kz</span>
-                </div>
+<div>
+<span class="old-price">4.897 kz</span>
+<span class="price">1.999 kz</span>
+</div>
+
 <a href="https://wa.me/244959622160?text=📘 *INTERESSE NO LIVRO DIGITAL* %0A%0A👋 Olá! Tudo bem? %0A%0ATenho interesse no ebook:%0A%0A💻 *Como começar a ganhar dinheiro na internet em 7 dias* %0A%0A📌 Gostaria de receber informações sobre:%0A✔️ Valor %0A✔️ Forma de pagamento %0A✔️ Como receberei o ebook %0A%0A🕒 Fico no aguardo. Obrigado!" target="_blank">
-    <button class="cta-button">Comprar pelo WhatsApp</button>
+<button class="cta-button">Comprar pelo WhatsApp</button>
 </a>
-            </div>
 
-        </div>
-    </div>
+<!-- PROVA SOCIAL -->
+<div class="social-proof">
+<div class="proof-card">
+<span class="proof-icon">🔥</span>
+<span><strong id="buyersToday"></strong> compras realizadas hoje</span>
+</div>
+<div class="proof-card">
+<span class="proof-icon">👀</span>
+<span><strong id="onlineNow"></strong> pessoas online agora</span>
+</div>
+<div class="proof-card">
+<span class="proof-icon">⏱️</span>
+<span>Última compra há <strong id="lastSale"></strong> min</span>
+</div>
+</div>
 
-    <div class="benefits">
-        <h3>O que você vai aprender</h3>
+</div>
+</div>
+</div>
 
-        <div class="benefits-grid">
-            <div class="benefit-item">
-                <div class="benefit-icon">💡</div>
-                <h4>Fontes de Renda Online</h4>
-                <p>Descubra formas reais de ganhar dinheiro na internet</p>
-            </div>
+<div class="benefits">
+<h3 style="text-align:center;margin-bottom:30px">O que você vai aprender</h3>
+<div class="benefits-grid">
+<div>
+<div class="benefit-icon">💡</div>
+<h4>Renda Online</h4>
+<p>Métodos reais e acessíveis</p>
+</div>
+<div>
+<div class="benefit-icon">📱</div>
+<h4>Com celular</h4>
+<p>Sem precisar investir alto</p>
+</div>
+<div>
+<div class="benefit-icon">🚀</div>
+<h4>Execução rápida</h4>
+<p>Resultados em 7 dias</p>
+</div>
+<div>
+<div class="benefit-icon">🔒</div>
+<h4>Seguro</h4>
+<p>Métodos éticos</p>
+</div>
+</div>
+</div>
 
-            <div class="benefit-item">
-                <div class="benefit-icon">📱</div>
-                <h4>Trabalhar com o que você já tem</h4>
-                <p>Use apenas celular e internet</p>
-            </div>
-
-            <div class="benefit-item">
-                <div class="benefit-icon">🚀</div>
-                <h4>Execução em 7 dias</h4>
-                <p>Plano prático com passos diários</p>
-            </div>
-
-            <div class="benefit-item">
-                <div class="benefit-icon">🔒</div>
-                <h4>Segurança</h4>
-                <p>Métodos éticos e sustentáveis</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="guarantee">
-        <h3>🛡️ Garantia de Satisfação</h3>
-        <p>Se o conteúdo não atender suas expectativas, basta entrar em contacto conosco para suportes adicionais.</p>
-    </div>
+<div class="guarantee">
+<h3>🛡️ Garantia de Satisfação</h3>
+<p>Suporte total após a compra.</p>
+</div>
 
 </div>
 
 <footer>
-    <p>&copy; 2026 – MultSev Solução Digital</p>
-    <p>📧 multsevsolucaodigital@gmail.com</p>
+<p>© 2026 – MultSev Solução Digital</p>
+<p>📧 multsevsolucaodigital@gmail.com</p>
 </footer>
+
+<script>
+// VALORES INICIAIS ALEATÓRIOS AO ENTRAR
+let buyersToday = Math.floor(Math.random() * 20) + 35;
+let onlineNow = Math.floor(Math.random() * 10) + 12;
+let lastSale = Math.floor(Math.random() * 5) + 1;
+
+const updateUI = () => {
+document.getElementById("buyersToday").innerText = buyersToday;
+document.getElementById("onlineNow").innerText = onlineNow;
+document.getElementById("lastSale").innerText = lastSale;
+};
+
+updateUI();
+
+// ATUALIZAÇÕES SUAVES
+setInterval(() => {
+buyersToday += Math.random() < 0.5 ? 1 : 0;
+
+onlineNow += Math.floor(Math.random() * 3 - 1);
+onlineNow = Math.max(8, onlineNow);
+
+lastSale = Math.floor(Math.random() * 6) + 1;
+
+updateUI();
+}, 6000);
+</script>
 
 </body>
 </html>
